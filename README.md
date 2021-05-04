@@ -27,6 +27,10 @@ Installing Flask:
 
     - `conda install -c anaconda flask`
 
-Installing Pandas:
+Installing vadersentiment:
 
     - `conda install -c anaconda pandas`
+
+Installing Pandas:
+
+    -  conda install -c conda-forge vadersentiment `
