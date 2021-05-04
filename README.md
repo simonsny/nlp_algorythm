@@ -26,3 +26,7 @@ Installing spacy
 Installing Flask:
 
     - `conda install -c anaconda flask`
+
+Installing Pandas:
+
+    - `conda install -c anaconda pandas`
