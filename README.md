@@ -6,8 +6,11 @@ The first field will accept any raw text.
 The second field will accept an url that goes to an html document like this one: https://www.gutenberg.org/files/103/103-h/103-h.htm
 
 You can find many such html files on https://www.gutenberg.org
+# Execution
 
-Create an environment with Anaconda
+Just run app.py and the local Flask app will launch.
+
+# Create an environment with Anaconda
 
 Create conda env
 
