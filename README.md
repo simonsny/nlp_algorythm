@@ -1,5 +1,11 @@
 # nlp_algorythm
-NLP to make summaries of text documents.
+This project creates a local Flask app and lets your summarize text. It will also do a sentiment analysis and try to visualize it.
+
+The first field will accept any raw text.
+
+The second field will accept an url that goes to an html document like this one: https://www.gutenberg.org/files/103/103-h/103-h.htm
+
+You can find many such html files on https://www.gutenberg.org
 
 Create an environment with Anaconda
 
