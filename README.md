@@ -1,8 +1,9 @@
 # nlp_algorythm
 NLP to make summaries of text documents.
 
+Create an environment with Anaconda
 
-Creaste conda env
+Create conda env
 
     - `conda create -n nlp_becode python=3.6`
  
@@ -27,10 +28,14 @@ Installing Flask:
 
     - `conda install -c anaconda flask`
 
-Installing vadersentiment:
+Installing Pandas:
 
     - `conda install -c anaconda pandas`
 
-Installing Pandas:
+Installing vadersentiment:
 
-    -  conda install -c conda-forge vadersentiment `
+    -  `conda install -c conda-forge vadersentiment`
+
+Installing beautifulsoup4:
+
+    -   `conda install -c anaconda beautifulsoup4`

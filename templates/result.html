@@ -15,15 +15,20 @@
  <div class="login">
 	<h1>Book Summarizer by Simon</h1>
 	<h2>Summarize from RAW text</h2>
-
+    <p>Example url: https://www.gutenberg.org/files/103/103-h/103-h.htm</p>
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict_text')}}"method="post">
     	<input type="text" name="RAW text" placeholder="RAW text" required="required" />
         <button type="submit" class="btn btn-primary btn-block btn-large">Summarize raw text</button>
     </form>
+    <form action="{{ url_for('predict_url')}}"method="post">
+    	<input type="text" name="RAW text" placeholder="RAW text" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Summarize from link to html</button>
+    </form>
 
-   {{ summarization }}
-
+{{ summarization }}
+     <center><img src="{{ user_image }}"></center>
  </div>
+
 </body>
 </html>
